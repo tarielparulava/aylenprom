@@ -1,0 +1,240 @@
+<errorcodes>
+<erren>
+<id>0</id>
+<err_id>00</err_id>
+<err_short>Rejected transaction on acquier/Elavon level</err_short>
+<err_long>
+REJECTED - An error occured. Transaction was rejected by Elavon due to no response from issuer/bank, inactive Merchant account, used not supported card or incorrect card data. Please try again later or contact with Espago Support Team.
+</err_long>
+</erren>
+<erren>
+<id>1</id>
+<err_id>1</err_id>
+<err_short>Refer to card issuer</err_short>
+<err_long>
+REJECTED - Authorization's Error. Please contact your card issuer.
+</err_long>
+</erren>
+<erren>
+<id>2</id>
+<err_id>2</err_id>
+<err_short>Refer to card issuer</err_short>
+<err_long>
+REJECTED - Authorization's Error. Please contact your card issuer.
+</err_long>
+</erren>
+<erren>
+<id>3</id>
+<err_id>3</err_id>
+<err_short>Invalid merchant or service provider</err_short>
+<err_long>
+REJECTED - Authorization's Error. Please contact your card issuer and try again later.
+</err_long>
+</erren>
+<erren>
+<id>4</id>
+<err_id>4</err_id>
+<err_short>
+Pickup card (special condition, other than lost/stolen card)
+</err_short>
+<err_long>
+REJECTED - Pickup card. Please contact your card issuer and try again later. IMPORTANT NOTICE: It is forbidden to retry transactions that ended with this code. It may be recogenized as fraud attempt!
+</err_long>
+</erren>
+<erren>
+<id>5</id>
+<err_id>5</err_id>
+<err_short>MOTO/eCommerce/recurring inactive or not honoured</err_short>
+<err_long>
+REJECTED – The bank has declined the transaction due to security check (used card doesn't support recurring payments / payment without CVV code), or the funds have been frozen, or card doesn't support MOTO/Internet transactions. Please check your card settings for those transaction types or use another card.
+</err_long>
+</erren>
+<erren>
+<id>7</id>
+<err_id>7</err_id>
+<err_short>
+Pickup card (special condition, other than lost/stolen card)
+</err_short>
+<err_long>
+REJECTED - Pickup card. Please contact your card issuer and try again later. IMPORTANT NOTICE: It is forbidden to retry transactions that ended with this code. It may be recogenized as fraud attempt!
+</err_long>
+</erren>
+<erren>
+<id>12</id>
+<err_id>12</err_id>
+<err_short>Invalid transaction</err_short>
+<err_long>
+REJECTED - no privileges to execute this transaction for your card, or amount of payment exceeded limit for internet payments. Please check your card settings and/or contact your card issuer (bank) to get more details and try again later.
+</err_long>
+</erren>
+<erren>
+<id>13</id>
+<err_id>13</err_id>
+<err_short>MOTO/eCommerce inactive or amount limit exceed</err_short>
+<err_long>
+REJECTED – Please check settings of your account and configurations of limits. Please contact your card issuer and try again later.
+</err_long>
+</erren>
+<erren>
+<id>14</id>
+<err_id>14</err_id>
+<err_short>Invalid card number</err_short>
+<err_long>
+REJECTED – Invalid card number. Check entered data and try again.
+</err_long>
+</erren>
+<erren>
+<id>30</id>
+<err_id>30</err_id>
+<err_short>Invalid data format</err_short>
+<err_long>
+REJECTED – Please contact your card issuer to get more details and try again later.
+</err_long>
+</erren>
+<erren>
+<id>41</id>
+<err_id>41</err_id>
+<err_short>Pickup card (lost)</err_short>
+<err_long>
+REJECTED – Please contact your card issuer to get more details and try again later. IMPORTANT NOTICE: It is forbidden to retry transactions that ended with this code. It may be recogenized as fraud attempt!
+</err_long>
+</erren>
+<erren>
+<id>43</id>
+<err_id>43</err_id>
+<err_short>Pickup card (stolen)</err_short>
+<err_long>
+REJECTED – Please contact your card issuer to get more details and try again later. IMPORTANT NOTICE: It is forbidden to retry transactions that ended with this code. It may be recogenized as fraud attempt!
+</err_long>
+</erren>
+<erren>
+<id>44</id>
+<err_id>N7</err_id>
+<err_short>Negative CVV results</err_short>
+<err_long>
+REJECTED - Negative CVV results. Check entered data and try again.
+</err_long>
+</erren>
+<erren>
+<id>51</id>
+<err_id>51</err_id>
+<err_short>Insufficient funds</err_short>
+<err_long>
+REJECTED - Insufficient funds. Please check funds on your account and try again later.
+</err_long>
+</erren>
+<erren>
+<id>54</id>
+<err_id>54</err_id>
+<err_short>Expired card</err_short>
+<err_long>
+REJECTED - Expired card. Please check your card or try another.
+</err_long>
+</erren>
+<erren>
+<id>57</id>
+<err_id>57</err_id>
+<err_short>Function not permitted to cardholder</err_short>
+<err_long>
+REJECTED – Bank has declined the transaction as this credit card cannot be used for this type of transaction (eccommerce, MOTO or recurring). Please check your card settings for those transaction types or use another card.
+</err_long>
+</erren>
+<erren>
+<id>59</id>
+<err_id>59</err_id>
+<err_short>Suspected fraud</err_short>
+<err_long>
+REJECTED – Please contact your card issuer to get more details and try again later.
+</err_long>
+</erren>
+<erren>
+<id>61</id>
+<err_id>61</err_id>
+<err_short>MOTO/eCommerce inactive or amount limit exceed</err_short>
+<err_long>
+REJECTED – Please check settings of your account and configurations of limits. Please contact your card issuer and try again later.
+</err_long>
+</erren>
+<erren>
+<id>62</id>
+<err_id>62</err_id>
+<err_short>Restricted card, country exclusion or blocked card</err_short>
+<err_long>
+REJECTED – Your card can be not supported due to country issuer exclusion (imposition an embargo), or bank blocked a card eg. due to unacceptable debit balance.
+</err_long>
+</erren>
+<erren>
+<id>65</id>
+<err_id>65</err_id>
+<err_short>Activity count limit exceeded</err_short>
+<err_long>
+REJECTED – Activity count limit exceeded. Change your limits settings or try again later.
+</err_long>
+</erren>
+<erren>
+<id>75</id>
+<err_id>75</err_id>
+<err_short>Allowable number of PIN-entry tries exceeded.</err_short>
+<err_long>
+REJECTED – Invalid activity count limit exceeded. Please check your CVV/CVC/PIN code.
+</err_long>
+</erren>
+<erren>
+<id>78</id>
+<err_id>78</err_id>
+<err_short>
+Transaction from a new cardholder, card not been unblocked.
+</err_short>
+<err_long>
+REJECTED – Inactive card. Please activate your card and try again later.
+</err_long>
+</erren>
+<erren>
+<id>82</id>
+<err_id>82</err_id>
+<err_short>Negative CVV results</err_short>
+<err_long>
+REJECTED - Negative CVV results. Check entered data and try again.
+</err_long>
+</erren>
+<erren>
+<id>91</id>
+<err_id>91</err_id>
+<err_short>Please retry</err_short>
+<err_long>
+REJECTED - Refused by Issuer because Issuer is temporarily inoperative. Try again later.
+</err_long>
+</erren>
+<erren>
+<id>92</id>
+<err_id>92</err_id>
+<err_short>Please retry</err_short>
+<err_long>
+REJECTED - Refused by Issuer because Issuer is temporarily inoperative. Try again later.
+</err_long>
+</erren>
+<erren>
+<id>94</id>
+<err_id>94</err_id>
+<err_short>Please retry</err_short>
+<err_long>
+REJECTED - Refused by Issuer because Issuer is temporarily inoperative. Try again later.
+</err_long>
+</erren>
+<erren>
+<id>98</id>
+<err_id>98</err_id>
+<err_short>Please retry</err_short>
+<err_long>
+REJECTED - Refused by Issuer because Issuer is temporarily inoperative. Try again later.
+</err_long>
+</erren>
+<erren>
+<id>99</id>
+<err_id>E3</err_id>
+<err_short>Incorrect 3D-Secure verification</err_short>
+<err_long>
+REJECTED - incorrect 3D-Secure verification or another error. Please check your 3DS code and try again or contact your bank or seller.
+</err_long>
+</erren>
+</errorcodes>
